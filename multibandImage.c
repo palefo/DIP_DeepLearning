@@ -312,6 +312,7 @@ void WriteMultibandImageToGrayImages(MultibandImage *mbImg, char *filename)
         }
     }
 
+
     for (i=0; i < mbImg->nbands; i++) {
         WriteOneBandOfMultibandImageToGrayImage(mbImg, i, filename);
     }
