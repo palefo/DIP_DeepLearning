@@ -14,7 +14,5 @@ date > predict.time
 rm result.test result.train  output.svm  model.svm 
 svm-subset -s 1 result.csv 1300 result.test result.train
 svm-train -s 0 -t 0 -c 1 result.train model.svm
-svm-predict result.test model.svm output.svm
-
-
+svm-predict result.test model.svm output.svm 
 
